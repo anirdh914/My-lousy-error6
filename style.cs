@@ -1,0 +1,101 @@
+body{
+  margin:0;
+  min-height:100vh;
+  background:linear-gradient(180deg,#070b2c,#02010f);
+  font-family:Arial,Helvetica,sans-serif;
+  color:#fff;
+}
+
+.top{
+  padding:20px;
+  text-align:center;
+}
+
+.brand{
+  color:#38f9c0;
+  margin:0;
+}
+
+.card{
+  max-width:380px;
+  margin:20px auto;
+  background:#0c1440;
+  border-radius:16px;
+  padding:20px;
+}
+
+h2{margin:0}
+.sub{font-size:13px;color:#9aa}
+
+.tabs{
+  display:flex;
+  margin:15px 0;
+}
+.tabs button{
+  flex:1;
+  padding:10px;
+  background:none;
+  border:none;
+  color:#9aa;
+  font-weight:bold;
+}
+.tabs .active{
+  color:#38f9c0;
+  border-bottom:2px solid #38f9c0;
+}
+
+.input{
+  display:flex;
+  align-items:center;
+  background:#08103a;
+  margin-top:12px;
+  padding:12px;
+  border-radius:12px;
+}
+.input span{margin-right:8px;color:#38f9c0}
+.input input{
+  flex:1;
+  background:none;
+  border:none;
+  outline:none;
+  color:#fff;
+}
+
+.row{
+  margin:12px 0;
+  font-size:13px;
+}
+
+.main-btn{
+  width:100%;
+  margin-top:12px;
+  padding:12px;
+  border:none;
+  border-radius:25px;
+  background:linear-gradient(90deg,#38f9c0,#2bd2ff);
+  font-weight:bold;
+}
+
+.outline-btn{
+  width:100%;
+  margin-top:10px;
+  padding:12px;
+  background:none;
+  border:1px solid #38f9c0;
+  color:#38f9c0;
+  border-radius:25px;
+}
+
+.links{
+  margin-top:15px;
+  display:flex;
+  justify-content:space-between;
+  font-size:12px;
+  color:#9aa;
+}
+
+.agree{
+  display:block;
+  margin-top:12px;
+  font-size:12px;
+}
