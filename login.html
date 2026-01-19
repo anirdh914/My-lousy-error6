@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top">
+  <h1 class="brand">YourGame</h1>
+</div>
+
+<div class="card">
+  <h2>Log in</h2>
+  <p class="sub">Login using phone number or email</p>
+
+  <div class="tabs">
+    <button class="active">Phone</button>
+    <button>Email</button>
+  </div>
+
+  <div class="input">
+    <span>+91</span>
+    <input type="text" placeholder="Phone number">
+  </div>
+
+  <div class="input">
+    <input type="password" placeholder="Password">
+  </div>
+
+  <div class="row">
+    <label><input type="checkbox" checked> Remember password</label>
+  </div>
+
+  <button class="main-btn">Log in</button>
+  <button class="outline-btn" onclick="goRegister()">Register</button>
+
+  <div class="links">
+    <span>Forgot password</span>
+    <span>Customer Service</span>
+  </div>
+</div>
+
+<script>
+function goRegister(){
+  window.location="register.html";
+}
+</script>
+
+</body>
+</html>
